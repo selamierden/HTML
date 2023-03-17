@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    height: 110px;
+    
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+}
+
+#navbar ul li a:hover{
+    background: black;
+    border-radius: 5px;
+}
+
+#jobclub {
+    text-align: center;
+    font-style: italic;
+}
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;   
+}
+
+#home img {
+    padding: 5px;
+}
+#home a {
+    background-color: black;
+}
+
+#baslık {
+    
+    font-size: 40px;
+    padding: 8px;
+    
+}
+#baslık:hover {
+    background-color: darkred;
+}
+
+#teamss {
+    color: white;
+    padding: 1rem;
+    
+}
+#teamss .team {
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+    
+}
+
+#teamss .team .item {
+    width: 33%;
+}
+
+#teamss .team .item:hover {
+    background: darkred;
+}
+
+#nob {
+    background: black;
+    color: darkred;
+    position: relative;
+    
+}
+
+#nob h3 {
+    padding: 8px;
+    font-size: 1.7rem;
+}
+
+#nob p {
+    padding: 6px;
+    font-size: 1rem;
+}
+
+#nob img {
+    position: absolute;
+    width: 300px;
+    height: 160px;
+    right: 50px;
+    top: 20px;
+    
+
+}
+
+#barca {
+    background: gray;
+    color: black;
+}
+
+#barca h3 {
+    padding: 8px;
+    font-size: 1.7rem;
+}
+
+#barca p {
+    padding: 6px;
+    font-size: 1rem;
+}
+
+#psg {
+    background: darkblue;
+    color: red;
+}
+#psg h3 {
+    padding: 8px;
+    font-size: 1.7rem;
+}
+#psg p {
+    padding: 6px;
+    font-size: 1rem;
+}
+#contact {
+    display: block;
+}
+#contact h4 {
+    color: aliceblue;
+    padding: 10px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+#contact .contact-form {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form-control {
+    width: 100%;
+    padding: 7px;
+    border-radius: 8px;
+}

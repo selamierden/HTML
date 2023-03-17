@@ -1,0 +1,53 @@
+
+
+
+.text-center {
+    text-align: center;
+}
+.heading-small {
+    font-size: 1.25rem;
+}
+.heading-medium {
+    font-size: 1.3rem;
+}
+.heading-large {
+    font-size: 2.5rem;
+}
+
+
+.bg-darkblue {
+    background: darkblue;
+}
+.bg-yellow {
+    background: yellow;
+}
+.bg-red {
+    background: red;
+}
+.bg-black {
+    background: black;
+}
+.bg-x {
+    background: darkred;
+}
+
+.form-group {
+    text-align: center;
+    color: white;
+    padding: 1px;
+}
+.form-group label {
+    
+    border-radius: 10px;
+    min-width: 800px;
+    text-align: center;
+}
+
+.btn {
+    background-color: white;
+    color: darkblue;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 6px;
+}
